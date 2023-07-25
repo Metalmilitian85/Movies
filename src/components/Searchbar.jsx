@@ -6,7 +6,9 @@ const Searchbar = (props) => {
             <input 
                 value={props.value} 
                 onChange={(event)=> props.setSearchValue(event.target.value)} 
-                placeholder="Type to search...">
+                type="text"
+                placeholder="Type to search..."
+                className="text-black">
             </input>
         </div>
     )
